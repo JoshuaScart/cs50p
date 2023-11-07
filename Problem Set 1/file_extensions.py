@@ -6,10 +6,10 @@ See developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_t
 # Ask the user for input
 file = input("What's your file? ")
 
-# Lowercase the input and remove any leading white spaces:
+# Lowercase the input and remove any leading white spaces
 filef = file.lower().strip()
 
-# Conditionals for every file extension:
+# Conditionals for each file extension
 if ".jpg" in filef or ".jpeg" in filef:
     print("image/jpeg")
 elif ".gif" in filef:
