@@ -22,5 +22,7 @@ elif ".txt" in filef:
     print("text/plain")
 elif ".zip" in filef:
     print("application/zip")
-else:                          # If it's not an recognized file extension:
+    
+# Conditional for cases where the file extension isn't recognizable by the program
+else:
     print("application/octet-stream")
