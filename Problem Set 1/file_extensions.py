@@ -3,7 +3,7 @@ outputs that file’s media type if the file’s name ends, case-insensitively, 
 .gif, .jpg, .jpeg, .png, .pdf, .txt, .zip. 
 See developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types for common types. '''
 
-# Asks the user for input
+# Ask the user for input
 file = input("What's your file? ")
 
 # "Lowercase" the input and remove any leading white spaces:
