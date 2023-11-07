@@ -5,7 +5,7 @@ Otherwise, output $100. Ignore any leading whitespace in the user’s greeting, 
 # Ask the user for the input:
 answer=input("A customer arrives at you bank, how do you great him?")
 
-# "Lowercase" the input and remove any leading whitespaces:
+# Lowercase the input and remove any leading whitespaces:
 answerf=answer.lower().strip()
 
 if answerf.startswith("hello"): # If the answer starts with "hello", print "$0".
