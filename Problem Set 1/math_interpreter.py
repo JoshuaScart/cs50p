@@ -9,7 +9,7 @@ z is an integer
 For instance, if the user inputs 1 + 1, your program should output 2.0. Assume that, if y is /, then z will not be 0. '''
 
 
-# Asks for the user input:
+# Ask for the user input:
 cal = input("Insert your calculation here: ")
 
 # Split the string into a list using the whitespaces:
