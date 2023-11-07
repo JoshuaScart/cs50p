@@ -9,17 +9,18 @@ z is an integer
 For instance, if the user inputs 1 + 1, your program should output 2.0. Assume that, if y is /, then z will not be 0. '''
 
 
-# Ask for the user input:
+# Ask for the user input
 cal = input("Insert your calculation here: ")
 
-# Split the string into a list using the whitespaces:
+# Split the string into a list using the whitespaces
 cals = cal.split(" ")
 
-# Makes each element of the list an operator of the calculaiton
+# Converts each element of the list into an operator for the calculation
 num1 = float(cals[0])
 op = cals[1]
 num2 = float(cals[2])
 
+# Conditionals for each different operator
 if op == "+":
     print(num1 + num2)
 elif op == "*":
