@@ -8,10 +8,10 @@ amount = 0
 while True:
     print(f"Amount Due: {50 - amount}")
     
-    # User input for inserting coins
+    # Ask user input for inserting coins
     coin = int(input("Insert Coin: "))
 
-    # Check if the inserted coin is valid (5, 10, or 25)
+    # Check if the value is valid
     if coin != 5 and coin != 10 and coin != 25:
         continue
     else:
@@ -21,5 +21,5 @@ while True:
     if amount >= 50:
         break
 
-# Print the change owed after the loop exits
+# Print the change
 print(f"Change Owed: {amount - 50}")
